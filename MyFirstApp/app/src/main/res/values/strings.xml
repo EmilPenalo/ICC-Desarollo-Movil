@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">MyFirstApp</string>
+    <string name="NameHint">*Nombres</string>
+    <string name="LastNameHint">*Apellidos</string>
+    <string name="Gender">*Genero:</string>
+    <string name="Birthdate">Nacimiento:</string>
+    <string name="LikesCode">¿Te gusta programar?</string>
+    <string name="Languages">Lenguajes:</string>
+    <string name="Yes">Si</string>
+    <string name="No">No</string>
+    <string name="SelectDate">Seleccionar Fecha</string>
+    <string name="EmptyDate">__ /__ /____</string>
+    <string name="Code_C">C/C++</string>
+    <string name="Code_Java">Java</string>
+    <string name="Code_Python">Python</string>
+    <string name="Code_JS">JS</string>
+    <string name="Code_Go">Go</string>
+    <string name="Code_CSharp">C#</string>
+    <string name="Send">Enviar</string>
+    <string name="Clear">Limpiar</string>
+    <string name="errorMissingFields">*Faltan datos requeridos.</string>
+
+    <string name="date_format">%1$d/%2$d/%3$d</string>
+
+    <string-array name="GenderOptions">
+        <item>Seleccionar</item>
+        <item>Masculino</item>
+        <item>Femenino</item>
+        <item>Prefiero no decir</item>
+    </string-array>
+</resources>
