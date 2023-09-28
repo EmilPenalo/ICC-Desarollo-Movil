@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:padding="16dp"
+              android:background="#FFFFFF"
+              tools:context=".UserDetailsActivity">
+
+    <!-- ImageView para mostrar el Avatar del usuario -->
+    <ImageView
+            android:id="@+id/ivAvatar"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"
+            android:contentDescription="@string/avatar_description"
+            android:scaleType="centerCrop"
+            tools:src="@tools:sample/avatars" />
+
+    <!-- TextView para mostrar el Email del usuario -->
+    <TextView
+            android:id="@+id/tvEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            tools:text="example@example.com" />
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RetrofitExample</string>
+    <string name="title_activity_retrofit">Retrofit Activity</string>
+    <string name="avatar_description">Detail View of user</string>
+    <string name="add_task">Add</string>
+    <string name="btnAgregar">Agregar</string>
+</resources>
