@@ -11,3 +11,12 @@ Un aspecto interesante del desarrollo fue el uso de diálogos. Inicialmente, se 
 La gestión de ViewModels se convirtió en un desafío adicional, impulsado por ambiciones iniciales de utilizar LiveData para un mejor control de los elementos y para anticipar la asignación siguiente. Sin embargo, debido a limitaciones de tiempo, esta parte del proyecto se volvió demasiado complicada y se pospuso para un futuro cercano. A pesar de los desafíos encontrados, este proceso permitió adquirir un mayor entendimiento sobre el tema, aunque no será parte del proyecto en este momento.
 
 >De manera general, y dado a que se lograron los requisitos de la asignación, considero que se han logrados los objetivos propuestos y se encontraron áreas en donde debo mejorar para seguir progresando en la materia y en mis estudios.
+
+### Tarea #4 (Lista de Tareas 2.0) - Informe:
+>El desafío más significativo que enfrenté se relacionó con algunas incertidumbres en los temas que se trataron en clase, en particular, la conexión entre el adaptador (adapter) y el ViewModel. Dado que el adaptador tenía funciones que modificaban los datos de alguna manera a través de botones de eliminación y marcado como completado, se requería una forma de enviar los datos de vuelta al ViewModel. Inicialmente, intenté utilizar Callbacks siguiendo información que encontré en Internet, pero esto complicaba el código y lo hacía menos legible.
+
+>Una solución que resultó efectiva, aunque implicaba sacrificar cierta abstracción en favor de una mayor legibilidad, fue pasar una instancia del ViewModel al adaptador para que pudiera ser llamado directamente cuando fuera necesario. Sin embargo, este enfoque tenía sus desventajas, como se mencionó anteriormente.
+
+>Finalmente, la solución que se adoptó fue la utilización de Consumers para llevar a cabo las acciones y definir las funciones dentro del fragmento que gestionaba la vista donde ya se tenía el ViewModel.
+
+>Otro desafío importante fue la configuración de la base de datos Room. A pesar de que las anotaciones eran simples, el proceso se complicó debido a la cantidad de clases requeridas, lo que inicialmente me desconcertó, ya que no podía seguir el flujo de información. Después de analizar los archivos y el proceso, así como consultar algunos tutoriales, logré comprenderlo y llevar a cabo la configuración de manera correcta.
