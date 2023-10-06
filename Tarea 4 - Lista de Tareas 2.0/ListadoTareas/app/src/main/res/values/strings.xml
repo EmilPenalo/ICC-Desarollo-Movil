@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Listado de Tareas</string>
+    <string name="ListView">List View</string>
+    <string name="RecyclerView">Recycler View</string>
+    <string name="AddButtonText">New Item</string>
+    <string name="BtnDeleteText">Delete Button</string>
+    <string name="completed">Completado!</string>
+</resources>
