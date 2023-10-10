@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Examen1</string>
+    <string name="SearchButton">search</string>
+    <string name="searchHint">Buscar</string>
+</resources>
